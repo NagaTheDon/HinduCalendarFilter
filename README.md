@@ -4,9 +4,9 @@ Tired of parents telling me when I should fast and when I shouldn't fast?
 
 So, I made two scripts that helps me **find out days and exact times I'm not required to fast**:
 
-* panchang-generator.py - This fetches Tithi and Nakshatra timings from "https://www.drikpanchang.com/tamil/tamil-month-panchangam.html?geoname-id=2643741&date={}" and stores Nakshatra details in `nakshatra.csv` and tithi details in `tithi.csv`
+* **panchang-generator.py** - This fetches Tithi and Nakshatra timings from "https://www.drikpanchang.com/tamil/tamil-month-panchangam.html?geoname-id=2643741&date={}" and stores Nakshatra details in `nakshatra.csv` and tithi details in `tithi.csv`
 
-* find-days.py - This reads both `nakshatra.csv` and `tithi.csv` and removes all the dates/times **when you should be fasting**. Then, it also removes certain week days as well as pradosh_dates.
+* **find-days.py** - This reads both `nakshatra.csv` and `tithi.csv` and removes all the dates/times **when you should be fasting**. Then, it also removes certain week days as well as pradosh_dates.
 
 ## How to use this app?
 
@@ -26,7 +26,7 @@ start_date = datetime(year=2023, month=7, day=6)
 stop_date = datetime(year=2023, month=12, day=31)
 ```
 
-`nakshatra_exist.csv` and `tithi_exist.csv` are examples of csvs that will be generated. 
+`nakshatra_exist.csv` and `tithi_old.csv` are examples of csvs that will be generated. 
 
 ## TASK:
 1. ~~Get a list of Thitis for each date~~
